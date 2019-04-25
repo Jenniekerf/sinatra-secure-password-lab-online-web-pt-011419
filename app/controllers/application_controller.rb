@@ -39,6 +39,7 @@ end
       redirect '/failure'
     else
       redirect '/account'
+    end
   end
 
   get "/failure" do
