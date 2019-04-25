@@ -38,7 +38,7 @@ end
    if params[:username] == "" || params[:password] == ""
       redirect '/failure'
     else
-      redirect '/'
+      redirect '/account'
   end
 
   get "/failure" do
